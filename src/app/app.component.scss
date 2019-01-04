@@ -1,0 +1,20 @@
+@import "../styles.scss";
+
+.container {
+    margin-top: 0;
+    margin-left: -10%;
+}
+
+#mainPage {
+    font-weight: bold;
+}
+
+#menuItem {
+    padding-left: 2em;
+    padding-right: 2em; 
+}
+
+.nav-item {
+    outline: 0;
+    border: none;
+}
