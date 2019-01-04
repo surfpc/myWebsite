@@ -1,11 +1,6 @@
 <div>
 <!--Navbar-->
-  <mdb-navbar class="navbar justify-content navbar-expand navbar-dark indigo">
-
-    <!-- <div class='menuItems'> -->
-    <!-- Navbar brand -->
-    <!-- <mdb-navbar-brand><a class="navbar-brand" routerLink="/home" routerLinkActive="active">Home</a></mdb-navbar-brand> -->
-
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo scrolling-navbar">
     <!-- Collapsible content -->
         <!-- Links -->
     <links>
@@ -23,8 +18,17 @@
             <a class="nav-link waves-light" mdbWavesEffect id='menuItem' routerLink="/contact" routerLinkActive="active">Contact Me</a>
         </li>
       </ul>
+
+      <ul class='navbar-nav ml-auto nav-flex-icons'>
+        <li class='nav-item'>
+          <a class='nav-link waves-effect waves-light' mdbWavesEffect href='https://www.linkedin.com/in/behlers/' target='_blank'><i class='fa fa-linkedin'></i></a>
+        </li>
+        <li class='nav-item'>
+            <a class='nav-link waves-effect waves-light' mdbWavesEffect href='https://github.com/surfpc' target='_blank'><i class='fa fa-github'></i></a>
+          </li>
+      </ul>
     </links>
-  <!-- </div> -->
-  </mdb-navbar>
+  </nav>
 </div>
+<div class='spacer'></div>
 <router-outlet></router-outlet>

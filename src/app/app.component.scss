@@ -1,10 +1,5 @@
 @import "../styles.scss";
 
-.container {
-    margin-top: 0;
-    margin-left: -10%;
-}
-
 #mainPage {
     font-weight: bold;
 }
@@ -17,4 +12,8 @@
 .nav-item {
     outline: 0;
     border: none;
+}
+
+.spacer {
+    margin-top: 3.65em;
 }
